@@ -4,13 +4,16 @@
   "description": "web server",
   "main": "week01.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node week01.js"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Mario Flota",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
